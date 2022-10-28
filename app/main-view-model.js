@@ -10,7 +10,7 @@ function getMessage(counter) {
 
 export function createViewModel() {
   const viewModel = new Observable();
-  viewModel.counter = 42;
+  viewModel.counter = 5s;
   viewModel.message = getMessage(viewModel.counter);
 
   viewModel.onTap = () => {
